@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>主菜单</string>
+    </property>
+    <addaction name="actionsave"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>强化商店</string>
+    </property>
+    <addaction name="actionpassv"/>
+    <addaction name="actioncutv"/>
+    <addaction name="actiondigv"/>
+    <addaction name="actioncenterbig"/>
+    <addaction name="actionraisecoin"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>放置</string>
+    </property>
+    <widget class="QMenu" name="menu_6">
+     <property name="title">
+      <string>采矿器</string>
+     </property>
+     <addaction name="actiondigup"/>
+     <addaction name="actiondigdown"/>
+     <addaction name="actiondigright"/>
+     <addaction name="actiondigleft"/>
+    </widget>
+    <widget class="QMenu" name="menu_7">
+     <property name="title">
+      <string>切割机</string>
+     </property>
+     <addaction name="actioncutup"/>
+     <addaction name="actioncutdown"/>
+     <addaction name="actioncutright"/>
+     <addaction name="actioncutleft"/>
+    </widget>
+    <widget class="QMenu" name="menu_8">
+     <property name="title">
+      <string>传送带</string>
+     </property>
+     <addaction name="actionright"/>
+     <addaction name="actionleft"/>
+     <addaction name="actionup"/>
+     <addaction name="actiondown"/>
+     <addaction name="actionrightup"/>
+     <addaction name="actionupleft"/>
+     <addaction name="actionleftdown"/>
+     <addaction name="actiondownright"/>
+     <addaction name="actionrightdown"/>
+     <addaction name="actiondownleft"/>
+     <addaction name="actionleftup"/>
+     <addaction name="actionupright"/>
+    </widget>
+    <addaction name="menu_6"/>
+    <addaction name="menu_8"/>
+    <addaction name="menu_7"/>
+    <addaction name="actionrubbish"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <action name="actionrubbish">
+   <property name="text">
+    <string>垃圾桶</string>
+   </property>
+  </action>
+  <action name="actiondigup">
+   <property name="text">
+    <string>上</string>
+   </property>
+  </action>
+  <action name="actiondigdown">
+   <property name="text">
+    <string>下</string>
+   </property>
+  </action>
+  <action name="actiondigright">
+   <property name="text">
+    <string>右</string>
+   </property>
+  </action>
+  <action name="actiondigleft">
+   <property name="text">
+    <string>左</string>
+   </property>
+  </action>
+  <action name="actioncutup">
+   <property name="text">
+    <string>上</string>
+   </property>
+  </action>
+  <action name="actioncutdown">
+   <property name="text">
+    <string>下</string>
+   </property>
+  </action>
+  <action name="actioncutright">
+   <property name="text">
+    <string>右</string>
+   </property>
+  </action>
+  <action name="actioncutleft">
+   <property name="text">
+    <string>左</string>
+   </property>
+  </action>
+  <action name="actionright">
+   <property name="text">
+    <string>右</string>
+   </property>
+  </action>
+  <action name="actionleft">
+   <property name="text">
+    <string>左</string>
+   </property>
+  </action>
+  <action name="actionup">
+   <property name="text">
+    <string>上</string>
+   </property>
+  </action>
+  <action name="actiondown">
+   <property name="text">
+    <string>下</string>
+   </property>
+  </action>
+  <action name="actionrightup">
+   <property name="text">
+    <string>右上</string>
+   </property>
+  </action>
+  <action name="actionupleft">
+   <property name="text">
+    <string>上左</string>
+   </property>
+  </action>
+  <action name="actionleftdown">
+   <property name="text">
+    <string>左下</string>
+   </property>
+  </action>
+  <action name="actiondownright">
+   <property name="text">
+    <string>下右</string>
+   </property>
+  </action>
+  <action name="actionrightdown">
+   <property name="text">
+    <string>右下</string>
+   </property>
+  </action>
+  <action name="actiondownleft">
+   <property name="text">
+    <string>下左</string>
+   </property>
+  </action>
+  <action name="actionleftup">
+   <property name="text">
+    <string>左上</string>
+   </property>
+  </action>
+  <action name="actionupright">
+   <property name="text">
+    <string>上右</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actionpassv">
+   <property name="text">
+    <string>传送带速度（100金币/级）</string>
+   </property>
+  </action>
+  <action name="actioncutv">
+   <property name="text">
+    <string>切割机速度（100金币/级）</string>
+   </property>
+  </action>
+  <action name="actiondigv">
+   <property name="text">
+    <string>采矿器速度（100金币/级）</string>
+   </property>
+  </action>
+  <action name="actioncenterbig">
+   <property name="text">
+    <string>扩大交付中心（100金币/级）</string>
+   </property>
+  </action>
+  <action name="actionraisecoin">
+   <property name="text">
+    <string>提高物品价值（50金币/级）</string>
+   </property>
+  </action>
+  <action name="actionsee">
+   <property name="text">
+    <string>查看</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,48 @@
+<RCC>
+    <qresource prefix="/map">
+        <file>map1.png</file>
+        <file>map2.png</file>
+        <file>map3.png</file>
+        <file>map4.png</file>
+        <file>digright2.png</file>
+        <file>digright3.png</file>
+        <file>digright1.png</file>
+        <file>digup3.png</file>
+        <file>digup2.png</file>
+        <file>digup1.png</file>
+        <file>digleft3.png</file>
+        <file>digleft2.png</file>
+        <file>digleft1.png</file>
+        <file>digdown3.png</file>
+        <file>digdown2.png</file>
+        <file>digdown1.png</file>
+        <file>cutdown1.png</file>
+        <file>cutdown2.png</file>
+        <file>cutleft1.png</file>
+        <file>cutleft2.png</file>
+        <file>cutright1.png</file>
+        <file>cutright2.png</file>
+        <file>cutup1.png</file>
+        <file>cutup2.png</file>
+        <file>passdown.png</file>
+        <file>passdownleft.png</file>
+        <file>passdownright.png</file>
+        <file>passleft.png</file>
+        <file>passleftdown.png</file>
+        <file>passleftup.png</file>
+        <file>passright.png</file>
+        <file>passrightdown.png</file>
+        <file>passrightup.png</file>
+        <file>passup.png</file>
+        <file>passupleft.png</file>
+        <file>passupright.png</file>
+        <file>item1.png</file>
+        <file>item2.png</file>
+        <file>item2left.png</file>
+        <file>item2right.png</file>
+        <file>rubbish.png</file>
+    </qresource>
+    <qresource prefix="/open">
+        <file>open.png</file>
+    </qresource>
+</RCC>
